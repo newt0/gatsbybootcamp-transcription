@@ -1,28 +1,28 @@
-A.P.I.
 API
-C.S.S.
+API
+CSS
 CSS
 Contentful
 Facebook
 Gatsby
 Gatsbyjs
 Google-Photo
-GraphQL
-H.T.M.L.
+`GraphQL`
+HTML
 HTML
 Instagram
 J.S.O.N
 JS
-JavaScript
+`JavaScript`
 Node
 React
 Reactjs
 Twitter
-Wordpress
-all-Markdown-Remark
+`Wordpress`
+`allMarkdownRemark`
 allMarkdownRemark
 blog
-blog-posts
+blog posts
 console
 console-dot-log
 console-dot-log-call
@@ -32,7 +32,7 @@ frontmatter
 gatsby-config-js
 gatsby-node
 gatsby-node-js
-gatsby-plugin-react-helmet
+`gatsby-plugin-react-helmet`
 layout-module-scss
 layouts
 log
@@ -44,4 +44,4 @@ rendering
 slug
 slugs
 stringfy
-third-party-apis
+third party apis
