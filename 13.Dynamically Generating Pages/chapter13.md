@@ -51,7 +51,7 @@ We just want to get the path to that new template we've created.
 That's `blog.js`.
 I'm going to store this in the following variable.
 I'll call it something like blog posts Plett, and this is going to be a path an absolute path to that file on your machine starting way back from the root of the hard drive.
-And to do that will use `path.resolve` that will resolve a partial path which will provide as a string right here.
+And to do that will use `path.resolve` that will `resolve` a partial path which will provide as a string right here.
 Now, for us, this needs to be the path from our current location in the `Gatsby Bootcamp` folder to the destination, which is `blog.js`.
 So that's `.
 source/templates/blog.js`.

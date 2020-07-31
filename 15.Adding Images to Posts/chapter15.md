@@ -44,14 +44,14 @@ Now, the other to plugins we installed are both remark specific.
 We installed Gatsby Remark images and Gatsby remark.
 Relative images.
 Both of those actually get configured in the options object for this plugin.
-That means we need to remove it from just being a string and switch it over to being an object and resolve resolves that same plugin value.
+That means we need to remove it from just being a string and switch it over to being an object and `resolve` `resolve`s that same plugin value.
 So at this point, what have we done? We haven't added any new functionality, but now we do have a structure where we can set up options, since it's an object and not just a string.
 And that's exactly what we're going to do.
 So right here we're setting up an options object and on this options object were setting up a plugins array.
 So these are plugins specific to the remark transformer, and this is all outlined in the docs for those specific plugins.
 So if you're wondering how I knew the documentation can guide you in terms of how to configure things now, right here, what we need to do is set up both of those plugins like we would do with our main plugins array.
 So the  first one is just gonna be a string as no options are required, that is, Gatsby remark, relative images and the 2nd 1 that's gonna be an object, as there are some options we want to provide.
-So right here resolve.
+So right here `resolve`.
 This is Gatsby remark images, and we're going to provide an options object just down below.
 Now there are only two options I want to provide, and the first is Max with.
 So let's say I have an image that's 1920 by 10 80 a standard h D size.

@@ -86,7 +86,7 @@ Step one.
 I'm going to create a new file in the pages directory for the About page.
 Now I'm going to go with about as the URL.
 Though maybe you wanted to do something like about me or even just me.
-In this case, about.js.
+In this case, `about.js`.
 I'll start by importing `React` from `React` and then we'll set up our components.
 So a new constant about page or something similar, we'll set up the function itself and will return the necessary `JSX` like I had with my other pages.
 I'll have a root `<div>` with all of the content right inside.

@@ -121,7 +121,7 @@ Excuse me? The `gatsby.config` file where we have our long list of plugins and w
 Now, we could put this wherever we'd like.
 I'm just gonna toss it right up top as the first item in the plugins array right here.
 This is something we'll be setting up options for.
-So this one needs to be an object in there setting up the resolve property with the plugin name right here.
+So this one needs to be an object in there setting up the `resolve` property with the plugin name right here.
 That's Gatsby source `Contentful`.
 And I can see down below that it did indeed, installed correctly, which is a great first step.
 Next up, we provide our options object and on the options object we have to specify.
