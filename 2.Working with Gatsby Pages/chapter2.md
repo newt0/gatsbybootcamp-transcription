@@ -30,7 +30,7 @@ We add a file to the source pages directory.
 That file is a `JavaScript` file which exports a `React component`.
 Now, if you're not familiar with the basics of `JavaScript` or `React`, those aren't topics I dive into in the bootcamp, though I do have courses for both of those.
 I have the modern `JavaScript` bootcamp, which covers everything you would need to know about `JavaScript`.
-And I have the complete `React` Web app Developer course which dives deep into `React` and that entire ecosystem, if you're interested in either of those, I'll include links on the screen and in the description down below.
+And I have [The Complete React Developer Course](https://www.udemy.com/course/react-2nd-edition/)  which dives deep into `React` and that entire ecosystem, if you're interested in either of those, I'll include links on the screen and in the description down below.
 So what exactly is happening when Gatsby generates our site? It starts by looking in that source pages folder to figure out exactly which static pages it should create.
 In this case, it sees we only have a single file, which means our site is only gonna have a single page.
 Now, the pages you create should indeed be `JavaScript` files, and those files should export `React component`s.
