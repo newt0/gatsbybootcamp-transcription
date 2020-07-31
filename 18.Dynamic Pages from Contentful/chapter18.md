@@ -104,14 +104,14 @@ All of that is mapped out in this object.
 Now the good news is that we don't need to manually parse this and figure out how to render things to the screen.
 `Contentful` actually provides an `npm` library we can install, and it's going to take the json, and it's going to convert it into a set of `React` components that we can render anywhere.
 So it's not just specific to `JavaScript`.
-The library is actually specific to React, which makes it really easy to work with.
+The library is actually specific to `React`, which makes it really easy to work with.
 So let's install this library and set it up.
 It will be as simple as a function call right here.
 We need to shut down the server, and I'll clear the output and we're going to install this library.
 That's `npm` I.
-It is at `Contentful` /rich text React.
+It is at `Contentful` /rich text `React`.
 Renderers.
-So this is going to allow us to render rich text fields using React.
+So this is going to allow us to render rich text fields using `React`.
 It provides a single function.
 We're going to import it and call it, and that's going to allow us to get our rich text field showing on the screen.
 Let's run the installation and, well, that's running up above.
@@ -177,7 +177,7 @@ And what do we get? We get some of our new content.
 I have a header which looks styled consistent with the rest of the site, and I have my other paragraph with the bold text down below.
 The only thing I'm missing is my image.
 By default, your images are not going to show up.
-But the good news is that we can make a small change to how we're calling that document to React.
+But the good news is that we can make a small change to how we're calling that document to `React`.
 Components function to actually render those images right in line before we focus on changing the code.
 Let's look at the new data for our complex post.
 So right here I'm going to rerun the same query we had before where we grab that json and we can see that it's a lot longer than what we had in the past.

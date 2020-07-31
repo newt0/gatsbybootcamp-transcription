@@ -17,7 +17,7 @@ After that, I'll add an `<h2>` and add a little bio about myself.
 Something like `I'm Andrew, a full stack developer living in a beautiful Philadelphia`.
 Perfect.
 Now that I have this in place, I can go ahead and make sure that this component gets exported like we were doing before.
-So export default followed by the name index page.
+So  `export default` followed by the name index page.
 Now there's no need to create the separate variable and then export it.
 But this is definitely the approach I prefer.
 I find it a lot easier to manage my code.
@@ -28,7 +28,7 @@ And right over here, we have everything showing up.
 So this is all it takes to create a page.
 We add a file to the source pages directory.
 That file is a `JavaScript` file which exports a `React` component.
-Now, if you're not familiar with the basics of `JavaScript` or React, those aren't topics I dive into in the bootcamp, though I do have courses for both of those.
+Now, if you're not familiar with the basics of `JavaScript` or `React`, those aren't topics I dive into in the bootcamp, though I do have courses for both of those.
 I have the modern `JavaScript` bootcamp, which covers everything you would need to know about `JavaScript`.
 And I have the complete `React` Web app Developer course which dives deep into `React` and that entire ecosystem, if you're interested in either of those, I'll include links on the screen and in the description down below.
 So what exactly is happening when Gatsby generates our site? It starts by looking in that source pages folder to figure out exactly which static pages it should create.
@@ -45,7 +45,7 @@ Let's go ahead and get started by adding a blog posts page to the site.
 So this is going to be a page where we will eventually show a list of all of the blog posts we've written To do that, we create a new file in the pages directory.
 I'm going to call this blog posts.js And like we did with the `index.js` file, we have to export a `React` component which contains the content we want to render.
 So let's get that done.
-To start, I'm gonna import React.
+To start, I'm gonna import `React`.
 Remember, we need `React` in order to use `JSX`.
 And from there we're gonna set up our functional component.
 I'll call this one something appropriate for the blog posts page like blog posts page.
@@ -92,7 +92,7 @@ So a new constant about page or something similar, we'll set up the function its
 I'll have a root `<div>` with all of the content right inside.
 I'll have an `<h1>` that says about me.
 Then down below, I can add a paragraph to the page as well, and I'll say something like I currently teach full time on you, Timmy perfect.
-So once we have this in place, all we need to do is export that component export default about page and we are halfway done.
+So once we have this in place, all we need to do is export that component  `export default` about page and we are halfway done.
 Now that we have the about page created, let's go ahead and move on to step two and create that contact page.
 So once again, we need to create a new file in the source pages directory.
 I'm gonna call this contact so that would be `contact.js`.

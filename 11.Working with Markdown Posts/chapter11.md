@@ -144,7 +144,7 @@ We have the `node` property than `frontmatter`, then `date` and `title`.
 So that means over here that would be `edge.node.
 frontmatter`.title`.
 And with this in place, we could test our work so far to make sure at least the `title` is showing up and it is right over here.
-I have React, followed by `The Great Gatsby Bootcamp`.
+I have `React`, followed by `The Great Gatsby Bootcamp`.
 Next up, we have that paragraph and I want to put the date right inside of there.
 That will be `edge.node.
 frontmatter`.date`.
@@ -152,7 +152,7 @@ Identical to what we had up above, just accessing something different from the `
 Now we can actually remove the `console.log` call as we're all done.
 We have successfully fetched the data and used it to render a list to the screen.
 If we check things out in the browser, we have our list item won.
-The title is React, and the date was April 2nd.
+The title is `React`, and the date was April 2nd.
 And here we have `The Great Gatsby Bootcamp` post with the date April 4th.
 With this in place.
 We've made some really great progress towards what we're working towards now this page is not done yet.

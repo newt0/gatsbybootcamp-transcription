@@ -5,10 +5,10 @@ For now, though, let's get started setting up a 404 page, and this process could
 I'm going to close all open editors, and all we need to do is create a new page in the pages directory, and this file should be called 404.js.
 In here we export a `React` component, and that is what renders when someone visits a page that's not found.
 So let's actually get to this right here.
-I'm going to start by importing React.
+I'm going to start by importing `React`.
 Since we'll be setting up a `React` component and down below, I'll create it, Const not found equals.
 I'll use a new functional component returning some `JSX` and then down below.
-We can export it so export default not found now on the not found page.
+We can export it so  `export default` not found now on the not found page.
 I still want to render the layouts so people can use the navigation bar to go over to a page that does exist.
 And I'm also going to link to a different page, like the home page in the not found text.
 So right here I'll import link from Gatsby and then down below, I'll import the layout component that we created from that file that is.
@@ -39,7 +39,7 @@ So there we go.
 The 404 is all set up now.
 I want to focus on customizing the head of our document so we can set up things like page titles.
 And to get that done will be using the very popular `React` library called Helmet.
-If you're not familiar with it, it's pretty much the standard for working with the head of your document from React.
+If you're not familiar with it, it's pretty much the standard for working with the head of your document from `React`.
 And there's a `gatsby-plugin-react-helmet` us.
 Integrate that into our sights.
 Let's head over to the plugins page on the Gatsby site and search for helmet right here.
@@ -66,14 +66,14 @@ Or we could create a component that handles the configuration for us.
 Something simple that we can render on old pages, meaning that we only have to configure `React` helmet once.
 And of course, that's the approach we're going to take.
 So in the Components Directory, let's create a new file called head.js for the component that's going to manage the head off our document right here.
-We're going to import, `React` from React, and we're also going to import something from React.
+We're going to import, `React` from `React`, and we're also going to import something from `React`.
 Helmet Right here it is a named export called helmet.
 That is a `React` component from the library.
 We just installed `React` helmet and we're done.
 Now we can create our component and export it from the file.
 So right here CONST.
 Head equals a functional component where we're going to return some `JSX`, which will get to in just a second down below.
-Let's export it export default head.
+Let's export it  `export default` head.
 Now, when it comes to what this component should render over going to do is render helmet itself.
 We're not actually gonna add anything else into this component.
 And when helmet gets rendered, it doesn't show anything onto the screen.

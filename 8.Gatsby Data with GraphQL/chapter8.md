@@ -16,7 +16,7 @@ And it's not something we're even going to attempt instead will focus on getting
 Now, the best way to visualize this is actually on the home page of the Gatsby site.
 That's over at `gatsby.js.orgs` If I scroll down just a little bit, there's a section called `How Gatsby Works?` Now there's a chance this visualization changes over time, but I think this is a pretty great visualization for what's happening here.
 Everything we're working with so far sits below this line of right here.
-So, yes, we're using Gatsby and we're working with `html`, CSS and React, and we're also getting a version of our site up and running.
+So, yes, we're using Gatsby and we're working with `html`, CSS and `React`, and we're also getting a version of our site up and running.
 Now we're not deploying it to production.
 We're running it in development, but it's the same idea, and we'll get to the deploy stage a little bit later in the bootcamp, the only thing we haven't touched on is what's up above the data sources for your Gatsby site.
 So where does your data come from? When it's not typed directly inside of a `React` component? It could come from a CMS like `Contentful` or `Wordpress`.

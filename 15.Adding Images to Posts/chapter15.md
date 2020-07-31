@@ -17,8 +17,7 @@ I'll put it right here just below that paragraph text and just above the topics 
 Now, to add a image to markdown, we used the following syntax.
 It's an exclamation mark, followed by a pair of brackets, followed by a pair of `()`s in de `()`s.
 We put the path to the image.
-In this case, we're gonna have a relative path from this file to the image they're in the same directory, so that would be.
-grass.PNG.
+In this case, we're gonna have a relative path from this file to the image they're in the same directory, so that would be `grass.PNG`.
 Then we can set up our all taxed for when we're unable to load the image, or for when someone's using an accessibility device like a screen reader.
 We can just use grass for that.
 So with this in place, we now have the finished markdown post.

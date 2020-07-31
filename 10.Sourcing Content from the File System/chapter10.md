@@ -37,14 +37,14 @@ Then I'll set up a second header using to hash signs, followed by a space for a 
 I'll call that topics covered, then down below.
 I'll just list those out.
 So I have Gatsby as the first one.
-I'll go ahead and put `GraphQL` in there and last up is React.
+I'll go ahead and put `GraphQL` in there and last up is `React`.
 So there we go.
 We have some `frontmatter`, and we also have our blog posts content itself with a couple of things for markdown that should end up becoming different in terms of how it looks on the screen.
 I would expect this to be a small paragraph and this to be a large header.
 Now let's go ahead and do the same thing for the `React` post.
-So right here we want to set up that `frontmatter` the title for this one can be something simple, like React, and I'll set the date to an earlier date.
+So right here we want to set up that `frontmatter` the title for this one can be something simple, like `React`, and I'll set the date to an earlier date.
 So right here I'll use `2019 the fourth month` but the `second day`, so two days ago, then allowed the content below.
-In this post, you'll learn React.
+In this post, you'll learn `React`.
 Perfect.
 So what do we have? We have a blog two posts, The Gatsby Post and The `React` Post.
 What we need to do is figure out how to get this inside of Gatsby, because once it's in there, we need to transform it from markdown to `html`.

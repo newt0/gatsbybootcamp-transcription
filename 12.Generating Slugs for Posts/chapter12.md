@@ -116,7 +116,7 @@ Now, if we head back to the `node` up above will see there's one particular fiel
 And this is what we're going to tap into.
 We're going to take this.
 We're going to remove the entire path except for the file.
-Then we're going to remove the extension, leaving us with just the slug in this case, Gatsby or, in the case up above, just React.
+Then we're going to remove the extension, leaving us with just the slug in this case, Gatsby or, in the case up above, just `React`.
 Now there's actually a `node.js` module built in called Path, which allows us to manipulate the path.
 And that has a function which allows us to extract the file name from a complex path like the one we've seen.
 So we can find the documentation for this `@nodejs.org` here.
@@ -143,7 +143,7 @@ So I'm going to save `gatsby-node`, I'm going to shut down things from the termi
 And hopefully we see our little message printing twice.
 Once for each markdown post right here.
 I did see them move by.
-I have the first one with the slug of Gatsby and the 2nd one with the slug of React.
+I have the first one with the slug of Gatsby and the 2nd one with the slug of `React`.
 So we've successfully extracted the data to get the slug.
 Now we have to call, `createNodeField` to, actually add the new field onto the `node` and this one really isn't too bad.
 Down below will remove that `console.log` call.

@@ -9,12 +9,12 @@ Let's create a new component in the Components directory, and this is something 
 Now we're going to focus on `layouts.js` and `index.js`.
 If we can get the layout to work here, it'll be really easy to add it to the other three pages.
 So to start, let's create the basic structure of the layout component right here.
-We're going to start by importing `React` from React.
+We're going to start by importing `React` from `React`.
 Then we'll set up the layout constant right here.
 It's a functional component where we return some `JSX` and I'll start off with a single root.
 `<div>`.
 Now down below will go ahead and export this component.
-So that's going to be export default layout and we're done.
+So that's going to be  `export default` layout and we're done.
 Well, we're done for now.
 Let's actually try to use this over in `index.js` and see what happens.
 So here's the big picture goal.
@@ -33,7 +33,7 @@ I'm going to save `index.js`.
 I'm going to navigate over to the home page and what do we have? We have a blank screen.
 That's because we're passing stuff to the layouts component this stuff right here.
 But it's not actually rendering it.
-So what is it rendering? It's just rendering an empty `<div>` well, in React, we get access to the content inside of a component via the Children prop, and that's exactly what we're gonna use to get all that other stuff rendered.
+So what is it rendering? It's just rendering an empty `<div>` well, in `React`, we get access to the content inside of a component via the Children prop, and that's exactly what we're gonna use to get all that other stuff rendered.
 So right here inside of `layouts.js` we get our `props` and we're going to use one right here.
 We are going to render `props.children`, and I'm just putting that inside of `{}` to reference that `JavaScript` variable.
 Now what is `props.children`? Well, it's the `JSX` passed in.

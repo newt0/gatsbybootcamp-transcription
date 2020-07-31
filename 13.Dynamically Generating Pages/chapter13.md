@@ -120,7 +120,7 @@ If that template has the `slug`, it can fetch the rest of the data for the post 
 So right here, we're going to pass the `slug` through which you could consider kind of like an `id` , as it is unique for each and every post.
 And right here we'll just use the following that is `edge.node.fields.slug` once again.
 So this is going to run twice, creating two new pages.
-The first is forward slash blog posts word slash React, and the second is forward slash blog posts word slash Gatsby.
+The first is forward slash blog posts word slash `React`, and the second is forward slash blog posts word slash Gatsby.
 Both are going to be rendered using the template we've defined.
 And both will have access to a little extra data which they can later use to pull everything they need about that blog posts.
 Now that we have this in place, we're all done.

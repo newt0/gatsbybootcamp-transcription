@@ -23,7 +23,7 @@ The files inside of here aren't going to do anything unless they're imported and
 And that's exactly what we want now to stay organized.
 I'll put the footer all the way over here on the right.
 Let's go ahead and create the component.
-I'll start by importing, `React` from React.
+I'll start by importing, `React` from `React`.
 And once we have that in place, we can create a new constant called footer.
 And that's where I'm going to store my functional component and I'll set up the content I'm going to render.
 In this case, it will be the footer element as the root element.
@@ -48,7 +48,7 @@ Now that we have the footer component imported, it can actually be used on the p
 And in this case it's going to make sense to put the footer at the bottom where it belongs.
 So right here just before that closing `</div>`.
 I'm gonna render the footer component now if I save things, What do I see in the background? I can see that my contact page does have the footer, which is a great start using `React` components, were able to compose our pages, and nothing we're doing here is Gatsby specific.
-Here we're just using the fundamentals of React, so I'll do the same thing for the about page importing the footer from We're going out of the pages directory into components and there we have Footer and I'll copy this line to the clipboard so I can use it for my other files right here.
+Here we're just using the fundamentals of `React`, so I'll do the same thing for the about page importing the footer from We're going out of the pages directory into components and there we have Footer and I'll copy this line to the clipboard so I can use it for my other files right here.
 Before that closing, `<div>` will render the footer component and then let's check out the about page so I head over to `/about` and right here I can see the footer is showing up, which is great.
 Now let's take this over to the other two pages, `blog.index`.
 So for blog posts paste, that import statement in then just below where we have that closing `</div>`, that will be footer to render it.
@@ -103,7 +103,7 @@ Now I actually called this footer.
 That is a mistake.
 I should have called that header just down below.
 Let's go ahead and export our new component.
-So export default header and all we need to do from here is import this file and render it somewhere on the site.
+So  `export default` header and all we need to do from here is import this file and render it somewhere on the site.
 And in this case, I want to do that for all four pages.
 So that is step number two.
 I'll start with the contact page.

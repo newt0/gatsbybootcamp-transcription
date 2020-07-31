@@ -4,8 +4,8 @@ And three, we're gonna use that command line interface to create and run.
 Our very First Gatsby project by the end will have our first Gatsby site up and running.
 And that's what we're gonna build off of and customize throughout the rest of the bootcamp.
 Let's get started with Gatsby by pulling up its website.
-We confined that over at Gatsby.js.org's and I want to spend it just a couple of minutes here, exploring the tool in a little more detail.
-As mentioned in the welcome video, Gatsby is a static site generator based on React.
+We confined that over at `Gatsby.js.orgs` and I want to spend it just a couple of minutes here, exploring the tool in a little more detail.
+As mentioned in the welcome video, Gatsby is a static site generator based on `React`.
 `GraphQL` and `node.js` Now Gatsby can do so much more than you contest likely do with a static site generator, and you actually won't see that term anywhere on The Gatsby home page.
 So instead, let's think of Gatsby as a `React` framework for building complex websites and Web applications.
 So with Gatsby, you're not just limited to static sites.
@@ -41,7 +41,7 @@ I remember when I was running my freelance Web development business from about 2
 They didn't want a `Wordpress` site because they cared about using `PHP` or my `SQL`.
 They wanted a `Wordpress` site because they knew with a `Wordpress` site, they could customize the content on their own.
 Now everyone can have what they want.
-Developers can write their sites in a modern stack, using `node.js`,`GraphQL` and React, and the website owners can still manage their content using whatever CMS they're most comfortable with, including `Wordpress` in this bootcamp will end up covering both of those approaches.
+Developers can write their sites in a modern stack, using `node.js`,`GraphQL` and `React`, and the website owners can still manage their content using whatever CMS they're most comfortable with, including `Wordpress` in this bootcamp will end up covering both of those approaches.
 So we're going to start off creating a simple Gatsby site and getting comfortable with the basics.
 Then we'll convert that over to a blog posts word by markdown files and from there will convert it over to a blog posts word by a content management system and in this case, will be using the `Contentful` CMS to get that done.
 Now let's actually get started with Gatsby.
