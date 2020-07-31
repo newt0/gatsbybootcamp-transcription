@@ -1,5 +1,5 @@
 now that you have content in your `Contentful` CMS, what we're gonna do is figure out how we can get it rendered in the browser.
-We've already seen a sample `GraphQL` query that fetches are blog posts from Contentful.
+We've already seen a sample `GraphQL` query that fetches are blog posts from `Contentful`.
 And the goal in this video is to get our post list rendered using `Contentful` posts instead of using the posts we created with markdown files.
 So to kick things off, what I want to do is talk about how we can customize the all `Contentful` blog posts queary.
 We're gonna learn how we consort our posts in a particular order and how we can customize the response of things like published date, getting a date that's a little more user friendly, as opposed to the current time stamp we're seeing in the response.

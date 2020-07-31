@@ -1,4 +1,4 @@
-Now that your list of blog posts is populated from Contentful, we want to make sure we're generating pages for each of those posts.
+Now that your list of blog posts is populated from `Contentful`, we want to make sure we're generating pages for each of those posts.
 Right now, if we click on them, we get nothing.
 And that's a problem.
 So in this video, we're going to accomplis`<h2>` things.
@@ -6,7 +6,7 @@ First, we need to dynamically create new pages for the `Contentful` posts and th
 So that template is gonna need to change a little bit.
 The entire focus is gonna be on Gatsby Node, where we dynamically create our pages and the blog template where we render the content to the screen.
 Let's get started with Gatsby `node` Now to set things up for markdown it required us to use to of the internal API on create `node` and create pages Now on create `node` was just used to generate slugs for our posts.
-That's a field we set up in Contentful.
+That's a field we set up in `Contentful`.
 So we actually don't need this anymore.
 We can remove it entirely down below.
 The only one we're going to use is create pages.
@@ -43,7 +43,7 @@ Everything in here is gonna be similar, though different enough where we're just
 So now blog posts renders an empty page using the layouts component.
 Let's make sure that we're at least seeing that page instead of the 404 page.
 So in the terminal down below, I'm going to restart things since we have made changes to the gatsby-node file.
-And once the server is up and running, if I refresh this URL I would expect to see something valid as a page should exist with this slug from Contentful.
+And once the server is up and running, if I refresh this URL I would expect to see something valid as a page should exist with this slug from `Contentful`.
 Right here.
 I give things a refresh, and this is a great first step.
 We're no longer seeing that 404 page.
@@ -93,7 +93,7 @@ So we're going to do is modify this old `Contentful` blog posts query we already
 We're going to grab body now.
 A body itself is not something we can directly grab.
 There are fields inside of it we need to access.
-And in this case, when we're working with a rich text field in Contentful, we want to grab json.
+And in this case, when we're working with a rich text field in `Contentful`, we want to grab json.
 This returns a json String, which is a representation of the content in that rich text field.
 So if we go ahead and set this up and run our query, it's gonna work, and we're going to see we get a lot more data in the response here for our first post.
 We have body json and we can see the value is a complex structure.
@@ -141,7 +141,7 @@ And once we get the blog posts page, we can pick a post and we do see the conten
 I have the content for the first post and for the 2nd 1 Now let's head over to `Contentful` and add some more complexity to those posts so we can see what we get down below in the body.
 Let's add some more stuff below our text.
 I'll add a header, a new section, and below that, I'll add some more text.
-I love Gatsby with Contentful, and I'll go ahead and make Gatsby bold because I can.
+I love Gatsby with `Contentful`, and I'll go ahead and make Gatsby bold because I can.
 And now we're actually going to add an image into the mix as well.
 So right here we can Lincoln image using this plus button, we can link an asset.
 Now.
@@ -230,8 +230,8 @@ I hav e n us.
 If you see a different locale over in `GraphQL playground` , you want to go ahead and use that and then down below, we're going to grab you are l This is gonna be `node` doc data.target.fields Here it was file followed by the locale E N us, followed by URL.
 Now we should be able to see both of those things showing up in the image element, and the end result should be a rendered image in the browser.
 And that is exactly what we're getting right here.
-We have all of our post content showing up, including the image, and all of this is managed from Contentful.
-So when we're working with Contentful, we can easily manage our content or someone else who owns the site can manage the content using this nice interface and behind the scenes, they don't need to worry about changing code or changing markdown files or changing anything else.
+We have all of our post content showing up, including the image, and all of this is managed from `Contentful`.
+So when we're working with `Contentful`, we can easily manage our content or someone else who owns the site can manage the content using this nice interface and behind the scenes, they don't need to worry about changing code or changing markdown files or changing anything else.
 Now, once again, `Contentful` is not for everybody, and neither is markdown.
 It's really up to you to pick what makes the most sense for you and run with that.
 All right, that's it for this one.

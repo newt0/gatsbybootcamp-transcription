@@ -2,10 +2,10 @@ in this video, we're going to start the process of connecting our Gatsby project
 Now, in this bootcamp will be working with the `Contentful` CMS.
 But the exact same principles would apply if you wanted to use another content management system like `Wordpress` or Drew.
 Paul Gatsby has plugins to support all of those CMS is and more.
-But once again, we're gonna end up using Contentful.
+But once again, we're gonna end up using `Contentful`.
 It's my personal favorite of those options.
 It's really easy to work with, and we can get started for free.
-You can find it over at Contentful.com, and right here we're just gonna go ahead and create a free account.
+You can find it over at `Contentful`.com, and right here we're just gonna go ahead and create a free account.
 Everything we're going to do in this bootcamp is completely free and doesn't require a credit card, just a free account.
 So let's create that account and once we have it created will get some content into the mix.
 Right here.
@@ -50,7 +50,7 @@ Now we already have some structure data over here in our to markdown post for bo
 We also have the date, and finally we have the actual post content.
 So those are three distinct fields and we're going to be adding three fields to the blog posts content model.
 Let's go ahead and add our very first field right here.
-We can see that with Contentful, we have a lot of field options.
+We can see that with `Contentful`, we have a lot of field options.
 This could be a text field, a complex, rich text field with formatting images and mawr.
 It could be a simple text field.
 It could be a number, date and time location, media, a Boolean like a check box and a whole bunch of other options.
@@ -84,7 +84,7 @@ So let's get our first post in place right here.
 Add blog posts and were brought to our blog posts editor page.
 It has all of the fields we specified Title slug published date and Body And now we can create our very first post for the title.
 I'll use a `Contentful` blog posts for the slug.
-I'll just use something like Contentful.
+I'll just use something like `Contentful`.
 I can pick whatever makes sense for me.
 Then down below, I'll say This one was published today and we can set up our post body as well.
 My post is here..now.
@@ -115,14 +115,14 @@ So when it comes to your Gatsby site, you consorcio, that content from a lot of 
 In this case, though, we are going to set up that `Contentful` source plugin.
 So let's head over to `Visiual Studio Code`.
 Shut down things in the terminal and we're going to run `npm install` to get that installed.
-That is Gatsby source Contentful.
+That is Gatsby source `Contentful`.
 And we're going to go ahead and install that, and we can go through the process of setting it up in the meantime, so to get this set up, what we need to do is head over to that gatsby-node file.
 Excuse me? The `gatsby.config` file where we have our long list of plugins and we're gonna add a new one into the mix.
 Now, we could put this wherever we'd like.
 I'm just gonna toss it right up top as the first item in the plugins array right here.
 This is something we'll be setting up options for.
 So this one needs to be an object in there setting up the resolve property with the plugin name right here.
-That's Gatsby source Contentful.
+That's Gatsby source `Contentful`.
 And I can see down below that it did indeed, installed correctly, which is a great first step.
 Next up, we provide our options object and on the options object we have to specify.
 Two things are space I d.
@@ -153,7 +153,7 @@ So over here for space i d.
 That is process.e n v.Contentful Space I d and down below.
 For access token, that is processed.e n v.Contentful access token and world done.
 Everything is configured.
-So with this what? Seven lines of configuration code were able to set up everything we need to source content from Contentful.
+So with this what? Seven lines of configuration code were able to set up everything we need to source content from `Contentful`.
 Now, what we're gonnado is start up our APP in development mode using `npm run develop`.
 And once that's up and running, we're gonna head over to `GraphQL playground`  and take a look at the new queries we have access to because those queries are going to allow us to access the data we just created.
 So right here, these sites starting up, I'm gonna head over to `GraphQL playground`  and give things a quick refresh over in the docs.
@@ -184,11 +184,11 @@ There's a little more to it.
 And don't worry, we're going to address that in the next video.
 For now, though, we can fire off our new query and we get new data.
 I see the correct slug and the published date for both of my posts were also going to talk about how we consort our posts from most recently published two oldest, and we'll figure out how we can actually format this date to be a little more friendly when it comes to rendering it to the screen.
-I'm excited to continue on with Contentful, but let's take a quick moment to recap what we did.
+I'm excited to continue on with `Contentful`, but let's take a quick moment to recap what we did.
 Essentially, we use `Contentful` as a Web app to manage our site content.
 We have our content models and our individual content themselves.
 We were then able to pull all of this into our Gatsby `GraphQL` API, using another one of Gatsby's source plugins.
-In this case, it was Gatsby source Contentful.
+In this case, it was Gatsby source `Contentful`.
 Now that we have access to it via our API.
 We could use those queries in our `React` components to get that data rendered to the screen.
 That's the topic of the next lesson.

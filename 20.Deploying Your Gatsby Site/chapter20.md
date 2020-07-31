@@ -93,7 +93,7 @@ We're going to change.
 Not just the site code were also going to change some data in `Contentful` so we can see what that process looks like to.
 And I actually want to start with a change to the `Contentful` data.
 Let's go ahead and just alter the title of one of our blog posts right here.
-We have Contentful.
+We have `Contentful`.
 I'm gonna go ahead and change a `Contentful` blog posts over to something else.
 My new post and I am going to publish those changes.
 Now this alone is not enough to have the new content showing up.
