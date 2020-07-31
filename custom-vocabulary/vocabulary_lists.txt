@@ -8,8 +8,8 @@ Gatsby
 Gatsbyjs
 Google-Photo
 `GraphQL`
-HTML
-HTML
+`html`
+`html`
 Instagram
 J.S.O.N
 JS
@@ -28,7 +28,7 @@ console-dot-log
 console-dot-log-call
 doc
 docs
-frontmatter
+`frontmatter`
 gatsby-config-js
 gatsby-node
 gatsby-node-js
