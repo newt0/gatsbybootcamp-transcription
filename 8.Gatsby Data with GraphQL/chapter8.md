@@ -2,7 +2,7 @@ Welcome back to `The Great Gatsby Bootcamp`.
 In this video, we're going to turn our attention towards getting dynamic data into our Gatsby sites using Gatsby's `GraphQL` API.
 Now, if you've never used `GraphQL` before, that's perfectly fine.
 Will only be using a little bit of `GraphQL` with Gatsby, and we'll go over the basics as we use them.
-So right now everything is shown in the browser is something that's only showing up because it's typed directly inside of the `JSX` for a `React` component.
+So right now everything is shown in the browser is something that's only showing up because it's typed directly inside of the `JSX` for a `React component`.
 All of the `<nav>` items, the site title, every bit of text showing on the screen.
 Now, obviously, that's fine as we're getting started.
 But as we do want to create more complex, dynamic sites, this approach is no longer going to scale.
@@ -19,7 +19,7 @@ Everything we're working with so far sits below this line of right here.
 So, yes, we're using Gatsby and we're working with `html`, CSS and `React`, and we're also getting a version of our site up and running.
 Now we're not deploying it to production.
 We're running it in development, but it's the same idea, and we'll get to the deploy stage a little bit later in the bootcamp, the only thing we haven't touched on is what's up above the data sources for your Gatsby site.
-So where does your data come from? When it's not typed directly inside of a `React` component? It could come from a CMS like `Contentful` or `Wordpress`.
+So where does your data come from? When it's not typed directly inside of a `React component`? It could come from a CMS like `Contentful` or `Wordpress`.
 It could come from files on the filesystem in the form of markdown blog posts.
 It could come from any third party data source, such as a custom API you've created.
 So this is what makes Gatsby really powerful.
@@ -55,8 +55,8 @@ So if you've ever worked with a `restAPI` before, maybe you've used tools like p
 This is the same idea just for a `GraphQL` API.
 So we type are query over here in the left hand side, we click that play button, it runs the query, and we get our data over here on the right hand side so we can use this to mess around with all of the data.
 We have access to figuring out exactly what we need and where it lives.
-Once we have our query and we're getting back the data we want, we can move that query into a `React` component to actually set things up in the Gatsby site for now, we're going to start by using graphic.
-You well, to mess around with the basics of `GraphQL` once we know how to fetch the title and the author will actually bring that into a `React` component to wire that data up dynamically.
+Once we have our query and we're getting back the data we want, we can move that query into a `React component` to actually set things up in the Gatsby site for now, we're going to start by using graphic.
+You well, to mess around with the basics of `GraphQL` once we know how to fetch the title and the author will actually bring that into a `React component` to wire that data up dynamically.
 If you haven't worked with `GraphQL` API before, one of the great things about them is that they're self documenting.
 `GraphQL` uses an explicit schema and tools like `GraphQL` can show you that schema letting you know exactly what data you have access to and how you can get it.
 So for us, let's crack open this docs panel on the right hand side.
@@ -95,7 +95,7 @@ Here we have site, `siteMetadata` and `title`.
 Here we have site, site, metadata and title.
 So we get back exactly what we put in.
 Though the fields we requested are obviously populated with the correct values.
-So Now that we've seen a basic query, let's go ahead and run in this exact same query from a `React` component so we can fetch dynamic data into our site.
+So Now that we've seen a basic query, let's go ahead and run in this exact same query from a `React component` so we can fetch dynamic data into our site.
 We're going to focus on grabbing the site title like we're doing here, but we're actually going to populate it as the value that shows up in the header up above now for us, that means we need to make a change to the header component.
 So right here, let's crack that open.
 This data right here is gonna end up becoming dynamic.
@@ -123,7 +123,7 @@ So for us, I'm going to remove `Andrew Meat` in the `<h1>` in my header, and we'
 The value is on `data.site.siteMetaData` and it is `title` now.
 If we save the program, we can actually pull our site up.
 And what do we see? I see `full stack bootcamp` showing up in the header, which is fantastic.
-We were able to create a `React` component that fetched data from Gatsby's `GraphQL` API to come up with something that's dynamic.
+We were able to create a `React component` that fetched data from Gatsby's `GraphQL` API to come up with something that's dynamic.
 Now what's cool is that as that data changes, the site will also change.
 So over here I'm going to alter that `title`, adding an exclamation mark on to the end.
 I'll save things head over to the browser and I can see that change is already in place.

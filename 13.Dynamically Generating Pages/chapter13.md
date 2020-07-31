@@ -1,10 +1,10 @@
 It's time to continue on with our three goals.
 We already have our page slugs.
 Goal number two is to generate a new template for the blog posts page, and we're going to do that by creating a new directory in the source folder called Templates.
-Now the reason I'm creating a new folder is that I want to differentiate the `React` component were about to create from the standard components in the Components Directory or the specialized components in the Pages folder.
+Now the reason I'm creating a new folder is that I want to differentiate the `React component` were about to create from the standard components in the Components Directory or the specialized components in the Pages folder.
 Here we're working with page templates and those are going to work slightly differently, so we'll create this new folder in there.
 We'll put a new file.
-I'll call this `blog.js`, and in here, all we need to do is create and export a `React` component, the template for ourblog posts pages.
+I'll call this `blog.js`, and in here, all we need to do is create and export a `React component`, the template for ourblog posts pages.
 So right here, let's start with the very basics.
 I'm just going to `import 'React' from 'react'`.
 Then down below, I'll set up the blog posts int, which is just a function, and I'll have it return some static text.
@@ -97,7 +97,7 @@ And now, inside of here, the goal is to call, `createPages`.
 So I'm going to call `createPages`, and I'm going to provide to it an object and on here.
 We have to provide three things.
 First up is the component were trying to render.
-Now the component is not an actual `React` component.
+Now the component is not an actual `React component`.
 It is just the path to the component.
 And we already have that up above.
 I have the blog posts template string, which I'll use down below.

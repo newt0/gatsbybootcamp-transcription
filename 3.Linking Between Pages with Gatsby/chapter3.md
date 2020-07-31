@@ -30,7 +30,7 @@ It's listed out as one of our three dependencies.
 So we're good to go.
 No need to install anything new.
 And what we're getting access to is `Link`.
-`Link` is a `React` component.
+`Link` is a `React component`.
 When we use `Link` to link between the pages of our Gatsby site, there's a whole bunch of optimization that happens behind the scenes.
 For example, Gatsby is going to pre load the page content you might be heading to.
 So if you do click that link, it loads instantly, and you no longer get that flash of content between pages so down below will leave our old example in place and will add the new one just below it.

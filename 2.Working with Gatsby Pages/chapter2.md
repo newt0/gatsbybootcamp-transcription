@@ -8,10 +8,10 @@ So all of the files we put inside of this directory are going to represent me pa
 I'd actually like to empty this file completely and build the page up from scratch.
 So right here it's going to start off the same one thing will do in all of our pages is `import react`.
 That's necessary.
-If we're gonna use `JSX` and `React` to something we can import as it's already installed as part of our Gatsby Project from here, what we're going to do is create our `React` component for this page as a standalone variable.
+If we're gonna use `JSX` and `React` to something we can import as it's already installed as part of our Gatsby Project from here, what we're going to do is create our `React component` for this page as a standalone variable.
 So, `const index page`, you could pick whatever name you like.
 This is just the one I'm choosing, and what I'm gonna do is set this up as a function.
-This function is our `React` component, and all we need to do from here is return some `JSX` containing what should get rendered When this component gets rendered right here, return in `()`s().
+This function is our `React component`, and all we need to do from here is return some `JSX` containing what should get rendered When this component gets rendered right here, return in `()`s().
 I'll set up a `<div>` and in there I'll add an `<h1>` header element with the text value of Hello.
 After that, I'll add an `<h2>` and add a little bio about myself.
 Something like `I'm Andrew, a full stack developer living in a beautiful Philadelphia`.
@@ -27,14 +27,14 @@ And right over here, we have everything showing up.
 `Hello, I'm Andrew, a full stack developer living in beautiful Philadelphia`.
 So this is all it takes to create a page.
 We add a file to the source pages directory.
-That file is a `JavaScript` file which exports a `React` component.
+That file is a `JavaScript` file which exports a `React component`.
 Now, if you're not familiar with the basics of `JavaScript` or `React`, those aren't topics I dive into in the bootcamp, though I do have courses for both of those.
 I have the modern `JavaScript` bootcamp, which covers everything you would need to know about `JavaScript`.
 And I have the complete `React` Web app Developer course which dives deep into `React` and that entire ecosystem, if you're interested in either of those, I'll include links on the screen and in the description down below.
 So what exactly is happening when Gatsby generates our site? It starts by looking in that source pages folder to figure out exactly which static pages it should create.
 In this case, it sees we only have a single file, which means our site is only gonna have a single page.
-Now, the pages you create should indeed be `JavaScript` files, and those files should export `React` components.
-Gatsby will render that `React` component to figure out what should get showing on the page.
+Now, the pages you create should indeed be `JavaScript` files, and those files should export `React component`s.
+Gatsby will render that `React component` to figure out what should get showing on the page.
 That's exactly why we're seeing are two bits of text when we visit the root of our site at `localhost: 8000`.
 Now, the name of the files in the source pages directory is also important.
 In this case, we've called our file `index.js` This is similar to how `index.html` would be the default page for a website.
@@ -43,7 +43,7 @@ So in this case, that's exactly why that content is appearing now to create a ne
 In total, we're gonna add three new pages in this lesson.
 Let's go ahead and get started by adding a blog posts page to the site.
 So this is going to be a page where we will eventually show a list of all of the blog posts we've written To do that, we create a new file in the pages directory.
-I'm going to call this blog posts.js And like we did with the `index.js` file, we have to export a `React` component which contains the content we want to render.
+I'm going to call this blog posts.js And like we did with the `index.js` file, we have to export a `React component` which contains the content we want to render.
 So let's get that done.
 To start, I'm gonna import `React`.
 Remember, we need `React` in order to use `JSX`.
@@ -99,7 +99,7 @@ I'm gonna call this contact so that would be `contact.js`.
 And then here we move through that same process importing `React` so we can use our `JSX`, setting up a constant for that component contact page and then is setting up the component itself and returning the `JSX` that should get rendered on the page.
 Now for the `<h1>`, I'll use the text value of contact.
 What's not contact page? Then down below, I'll set up a paragraph analogue.
-Just say the best way to reach me is via my Twitter, which is at Andrew Underscore J underscore Mead.
+Just say the best way to reach me is via my Twitter, which is `@Andrew_J_Mead`.
 Perfect.
 Actually, I'll say via that on Twitter.
 Excellent.

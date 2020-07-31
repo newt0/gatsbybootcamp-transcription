@@ -190,6 +190,6 @@ We have our content models and our individual content themselves.
 We were then able to pull all of this into our Gatsby `GraphQL` API, using another one of Gatsby's source plugins.
 In this case, it was Gatsby source `Contentful`.
 Now that we have access to it via our API.
-We could use those queries in our `React` components to get that data rendered to the screen.
+We could use those queries in our `React component`s to get that data rendered to the screen.
 That's the topic of the next lesson.
 So let's jump right in.

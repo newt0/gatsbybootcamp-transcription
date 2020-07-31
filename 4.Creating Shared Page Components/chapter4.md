@@ -6,12 +6,12 @@ Now, this works really well for unique content.
 But think about things that are shared across multiple pages in your sight, like a header or a footer.
 This is not something we want to have to type out for each and every page.
 We're gonna have duplicate code all over the place.
-Instead, we want to create a separate `React` component that all of these pages can use and render.
+Instead, we want to create a separate `React component` that all of these pages can use and render.
 And that's exactly what we're gonna do it in this video.
 Together, we're going to create a footer that will show up at the bottom of every page on our site.
 Then, as your challenge for the video, you'll create a header for these site pages with a shared navigation.
 So it's really easy to access all of the content on the site.
-So let's get started together with the footer to get started, we need to create a new file for a new `React` component, The footer.
+So let's get started together with the footer to get started, we need to create a new file for a new `React component`, The footer.
 Then, once we have that component in place.
 All of these pages can import it and use it where they like at the bottom of the page that will give us a shared footer.
 Now, this new component file should not go in the source pages directory.
@@ -47,7 +47,7 @@ Since I'm looking for a file in there and it's called Footer leaving off the JS 
 Now that we have the footer component imported, it can actually be used on the page.
 And in this case it's going to make sense to put the footer at the bottom where it belongs.
 So right here just before that closing `</div>`.
-I'm gonna render the footer component now if I save things, What do I see in the background? I can see that my contact page does have the footer, which is a great start using `React` components, were able to compose our pages, and nothing we're doing here is Gatsby specific.
+I'm gonna render the footer component now if I save things, What do I see in the background? I can see that my contact page does have the footer, which is a great start using `React component`s, were able to compose our pages, and nothing we're doing here is Gatsby specific.
 Here we're just using the fundamentals of `React`, so I'll do the same thing for the about page importing the footer from We're going out of the pages directory into components and there we have Footer and I'll copy this line to the clipboard so I can use it for my other files right here.
 Before that closing, `<div>` will render the footer component and then let's check out the about page so I head over to `/about` and right here I can see the footer is showing up, which is great.
 Now let's take this over to the other two pages, `blog.index`.
@@ -124,7 +124,7 @@ And the final thing we need to do after saving the contact file is to test our w
 So right here among the blog posts page, I'll go to home than blog about then contact.
 And we can see that on each and every page we have our header showing up, up top and down below we have our Futter.
 So when we're working with Gatsby, we can compose our site of various components exactly like we're able to when we're using `React` in any other `context`.
-The only important thing to remember is that if we're creating a `React` component that's not meant to be an entirely new page that should not go in the source pages directory.
+The only important thing to remember is that if we're creating a `React component` that's not meant to be an entirely new page that should not go in the source pages directory.
 In this case, we're putting it in the source components directory.
 But this directory could be called anything you'd like.
 Its name is not important.

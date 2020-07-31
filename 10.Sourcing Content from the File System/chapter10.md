@@ -2,7 +2,7 @@ A couple of videos ago, we went over to the browser and went to The Gatsby home 
 Look at the following visualization here.
 We talked about how we were going to use the `GraphQL` API that Gatsby provides a source our data from external data sources now.
 So far, we have done that with site meta data.
-We were able to pull in some basic information getting that rendered in our `React` components.
+We were able to pull in some basic information getting that rendered in our `React component`s.
 But it's not exactly a great place for more complex data.
 For example, the blog posts were trying to create for our site storing that inside of that little site.
 Meta data object just is not realistic.
@@ -126,6 +126,6 @@ And if I scroll to the bottom, I can see that amongst those other files.
 I have my Gatsby markdown post right here and down below.
 I have my `React` markdown post.
 So now we are correctly sourcing content from the filesystem.
-From here, The question is, how do we specifically target these markdown files? And how do we take their contents and convert them into something that's useful for us inside of `React` components? So this is just step one of about three steps to getting the markdown blog posts and running.
+From here, The question is, how do we specifically target these markdown files? And how do we take their contents and convert them into something that's useful for us inside of `React component`s? So this is just step one of about three steps to getting the markdown blog posts and running.
 In the next video, you're gonna learn how to transform the's markdown files into `html` you can actually use and render.
 I'm excited to get to that, so let's jump right into the next one.

@@ -1,6 +1,6 @@
 Now that we have a list of blog posts on the blog page, it's time to dynamically generate pages for each and every post.
 So if I want to read this post, I click on the title.
-That brings me over to a new page and that new pages dynamically generated using the markdown data from `GraphQL` and a blog post page template, which is nothing more than a `React` component.
+That brings me over to a new page and that new pages dynamically generated using the markdown data from `GraphQL` and a blog post page template, which is nothing more than a `React component`.
 And we're going to use that same blog post page template for every single blog post.
 Sense as we saw in `GraphQL`, we have a standardized set of data.
 I have a title, I have a date, and I have the body content for each and every post.
@@ -21,7 +21,7 @@ So that's goal one.
 Generate a slug for each post.
 Goal two is an easy one for us.
 We're going to generate the blog post page template.
-That's nothing more than a `React` component.
+That's nothing more than a `React component`.
 And there's not a lot to say about that for now.
 Pretty straight forward.
 Next up and the final thing we're gonna do goal number three is to actually combine those two.

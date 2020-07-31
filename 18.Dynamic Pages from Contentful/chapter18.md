@@ -102,7 +102,7 @@ And somewhere inside of there we can see the data that we actually wrote out.
 My post is here, and if we scroll down for the other post we can get, see that as well Now the reason they use this complex structure is to keep track of things like the paragraphs embedded assets like images, headers, Bold attacks, a Tallix and Mawr.
 All of that is mapped out in this object.
 Now the good news is that we don't need to manually parse this and figure out how to render things to the screen.
-`Contentful` actually provides an `npm` library we can install, and it's going to take the json, and it's going to convert it into a set of `React` components that we can render anywhere.
+`Contentful` actually provides an `npm` library we can install, and it's going to take the json, and it's going to convert it into a set of `React component`s that we can render anywhere.
 So it's not just specific to `JavaScript`.
 The library is actually specific to `React`, which makes it really easy to work with.
 So let's install this library and set it up.
@@ -117,7 +117,7 @@ We're going to import it and call it, and that's going to allow us to get our ri
 Let's run the installation and, well, that's running up above.
 We can focus on our import statement, so we're going to grab a single thing from that library.
 It is a function, and it's called Document to `React` Components.
-Now this is going to take in the json that we're grabbing from the API once we set that up over here and it's going to spit out `React` components that we can render wherever we want.
+Now this is going to take in the json that we're grabbing from the API once we set that up over here and it's going to spit out `React component`s that we can render wherever we want.
 Teoh.
 Now we're gonna grab that from the library we just installed `Contentful` rich text `React` renderers.
 Perfect.
@@ -195,7 +195,7 @@ So let's leave the actual rendered post up in the background.
 And over here, we're going to focus on drilling down to that data right here.
 To do that, we have to set up an optional options object.
 So a new constant options is gonna be an object.
-And we pass that in as the second argument to that function the document to `React` components function.
+And we pass that in as the second argument to that function the document to `React component`s function.
 So I'm gonna pass that in now.
 What we can do is customized how certain `node` types are rendered on here.
 We start by setting up the render `node` property.

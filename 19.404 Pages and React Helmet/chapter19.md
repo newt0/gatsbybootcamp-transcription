@@ -3,10 +3,10 @@ You're gonna learn how to set up a 404 page, and you're also going to learn how 
 And then in the next lesson, the final one will take our Gatsby site and will deploy it live to the Web.
 For now, though, let's get started setting up a 404 page, and this process could not be easier in `Visiual Studio Code`.
 I'm going to close all open editors, and all we need to do is create a new page in the pages directory, and this file should be called 404.js.
-In here we export a `React` component, and that is what renders when someone visits a page that's not found.
+In here we export a `React component`, and that is what renders when someone visits a page that's not found.
 So let's actually get to this right here.
 I'm going to start by importing `React`.
-Since we'll be setting up a `React` component and down below, I'll create it, Const not found equals.
+Since we'll be setting up a `React component` and down below, I'll create it, Const not found equals.
 I'll use a new functional component returning some `JSX` and then down below.
 We can export it so  `export default` not found now on the not found page.
 I still want to render the layouts so people can use the navigation bar to go over to a page that does exist.
@@ -47,7 +47,7 @@ Let's head over to the plugins page on the Gatsby site and search for helmet rig
 That's the one we're gonna end up using.
 Now there are actually two libraries will install will be installing this plugin, and we'll also be installing the `React` Helmet library, which is linked to right here.
 We can crack that open in a new tab to check that out as well.
-This is just a standalone `React` component that we could use outside of a Gatsby site.
+This is just a standalone `React component` that we could use outside of a Gatsby site.
 It's a really great choice for managing the head of your document, and they have a ton of great examples down below as to how you can get all of this done now, when it comes to the plug and we're going to install this polls, all of that information in to the static pages for our site.
 So it's definitely going to be an important piece to the puzzle.
 Let's take a quick moment to install both of these.
@@ -68,7 +68,7 @@ And of course, that's the approach we're going to take.
 So in the Components Directory, let's create a new file called head.js for the component that's going to manage the head off our document right here.
 We're going to import, `React` from `React`, and we're also going to import something from `React`.
 Helmet Right here it is a named export called helmet.
-That is a `React` component from the library.
+That is a `React component` from the library.
 We just installed `React` helmet and we're done.
 Now we can create our component and export it from the file.
 So right here CONST.

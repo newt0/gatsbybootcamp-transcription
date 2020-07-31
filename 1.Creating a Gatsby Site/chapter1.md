@@ -112,7 +112,7 @@ For now, the focus is on to the source directory, and if we open that up, we can
 The Pages directory is a very important folder in Your Gatsby project, and it's actually the topic of the next lesson.
 So for the moment, we're not going to dive too much into the details of what it is or how everything's working.
 If we go inside of that folder, though, we can see we have a single file `index.js`.
-This contains the `React` component that's rendering the home page right here.
+This contains the `React component` that's rendering the home page right here.
 If I open it up, we can see it's about as simple as it gets online.
 One we import `React` on line three.
 We export a functional component where we set up a `<div>` with the text of Hello World.

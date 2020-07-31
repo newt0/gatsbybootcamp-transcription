@@ -102,5 +102,5 @@ We have nicer font families and a little bit of spacing along with nicer font si
 Obviously, we're not done styling just yet, but using that base set of styles will be able to further customize these styles for art project.
 So that's where we're going to stop for this video.
 We now know how to add basic styles into our Gatsby project, and in the next lesson, we're going to take that to the next level by learning about CSS modules.
-That is my favorite way to style `React` components.
+That is my favorite way to style `React component`s.
 So let's go ahead and jump right into that.
