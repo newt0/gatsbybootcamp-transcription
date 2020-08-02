@@ -5,7 +5,7 @@ So far, we have done that with site meta data.
 We were able to pull in some basic information getting that rendered in our `React component`s.
 But it's not exactly a great place for more complex data.
 For example, the blog posts were trying to create for our site storing that inside of that little site.
-Meta data object just is not realistic.
+`MetaData` object just is not realistic.
 Instead, we're going to start to focus on creating a blog posts word by markdown blog posts.
 So inside of `Visiual Studio Code`, we'll be adding markdown files for each of the blog posts we want to create.
 Those will then be listed over on the blog posts page of our site and will also have Gatsby dynamically generate brand New pages based off of a page template for each and every blog posts.
@@ -18,16 +18,18 @@ You could call it something else like blog posts.
 The exact name could be whatever you want in here, we're gonna add a couple of posts.
 I'll have one called `gatsby.md` and real quick.
 I'll create another one.
-Let's call it `react.md` So for The Gatsby post, we're just gonna add a little bit of sample text.
+Let's call it `react.md`.
+So for The Gatsby post, we're just gonna add a little bit of sample text.
 I'm not actually going to write out an entire post.
-Let's get started by adding, What's No.
-One as the `frontmatter` for our markdown posts? So we start with `___`.
+Let's get started by adding, What's number.
+One as the `frontmatter` for our markdown posts?
+So we start with `___`.
 We end with `___` and right in between, we can add key value pairs for whatever makes sense for us now.
 4 posts.
-You might want to include the post title.
-Maybe the date the post was published, a list of tags the author, whatever sort of data you want to add on to the actual post content.
+You might want to include the post `title`.
+Maybe the date, the post was published, a list of tags the author, whatever sort of data you want to add on to the actual post content.
 So right here, let's keep it simple.
-I'm going to set up a title for this post, so that is title call and space.
+I'm going to set up a `title` for this post, so that is `title` call and space.
 Inside of quotes.
 I'll call this `The Great Gatsby Bootcamp` and then down below.
 I also set up a `date` right here, `2019 4/4`.
@@ -42,7 +44,7 @@ So there we go.
 We have some `frontmatter`, and we also have our blog posts content itself with a couple of things for markdown that should end up becoming different in terms of how it looks on the screen.
 I would expect this to be a small paragraph and this to be a large header.
 Now let's go ahead and do the same thing for the `React` post.
-So right here we want to set up that `frontmatter` the title for this one can be something simple, like `React`, and I'll set the date to an earlier date.
+So right here we want to set up that `frontmatter`, the `title` for this one can be something simple, like `React`, and I'll set the date to an earlier date.
 So right here I'll use `2019 the fourth month` but the `second day`, so two days ago, then allowed the content below.
 In this post, you'll learn `React`.
 Perfect.
