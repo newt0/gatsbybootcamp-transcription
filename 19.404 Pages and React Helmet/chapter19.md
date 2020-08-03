@@ -103,7 +103,7 @@ We have the page and we have our title.
 This is a test is showing up.
 Now when it comes to customizing that five icon, all you need to do for that is swap out the file in the static directory down below five Icahn.Co.
 So let's continue on with this particular example, and what I want to do is focus on actually pulling in useful information.
-The first thing we're going to do is we're gonna pull in the site metadata title.
+The first thing we're going to do is we're gonna pull in the site metedata title.
 This is something we're going to show as part of the title for every single page.
 It's not the only thing we're going to show, but it's part of what we're going to show so right here for a sight like Gatsby.
 I can see that if I hover over this title for a second, it's gonna show me the full thing.

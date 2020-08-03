@@ -37,7 +37,7 @@ I can run it and see their response, but it's a lot easier to work with.
 We could manage tabs so we can have multiple queries at the same time.
 We also have a nicer set of docs that, in my opinion, is much easier to work with.
 So here we have site.
-Then we can see all the arguments and our fields below `siteMetaData.title` and `.author` so we can see everything in one shot making it a lot easier to construct the queries we want to perform.
+Then we can see all the arguments and our fields below `sitemetedata.title` and `.author` so we can see everything in one shot making it a lot easier to construct the queries we want to perform.
 So that's it for this video.
 I just wanted to show you how you could set up support for this new tool going forward.
 I'll see you in the next one.

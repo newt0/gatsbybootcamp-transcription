@@ -31,18 +31,18 @@ As an example, the site title, maybe the Twitter profile name and the author of 
 Now to get that done, all we need to do is go into `Visiual Studio Code` and make a change to that `gatsby.config` file we've created.
 So for the moment, I'm going to close all open editors and we're gonna open up.
 Just be `gatsby.config` file, and we're gonna add another property onto this object just alongside of plugins.
-And in this case, I'll call this `siteMetaData`, and the name here is important.
+And in this case, I'll call this `sitemetedata`, and the name here is important.
 It needs to be exact.
 Otherwise, Gatsby is not going to be able to find it.
 Let's get started by setting up a title property for these site title.
 I'm going to call mine something like `full stack bootcamp`.
 Perfect.
 You can choose whatever title you'd like for your own site.
-Let's also set up one more property on `siteMetaData`.
+Let's also set up one more property on `sitemetedata`.
 I'm going to set up an author property, which I can use throughout the site.
 And right here the value for that will just be `Andrew Mead`.
 So there we go.
-We have two pieces of data, and will ADM or onto `siteMetaData` later in the video.
+We have two pieces of data, and will ADM or onto `sitemetedata` later in the video.
 For now, though, let's figure out how we can actually query this using the `GraphQL` API that Gatsby provides.
 Once we've pulled these values into our components will focus on adding more and more data.
 Now, let's actually fetch this data.
@@ -71,28 +71,28 @@ We can see a few different things about these site query.
 I convey view the arguments we can provide.
 We're not going to provide any, and I convey you the type definition, which is what we want.
 So when we grab site, what do we get access to? Well, If I click that we get access to all of these fields, I have quite a few different fields.
-The one that we're interested in is called site metadata.
-No, if I click on site metadata, I can see that is of the following type.
+The one that we're interested in is called site metedata.
+No, if I click on site metedata, I can see that is of the following type.
 I click on that and I can see what fields I have access to `title` and `author`.
-The two things we defined over insight metadata over here.
+The two things we defined over insight metedata over here.
 So let's go ahead and actually run a query to fetch this data.
 Now I know we click through a lot of screens, but once we see the query in action, it will be a lot easier to figure out what's going on.
 So Step one is removing the comments over there and starting by defining our query.
 We do this by listing out query.
 Then we open and close a set of `{}`.
 And inside of here we can perform which ever of those queries we wanted to in this case, we decided we wanted to use site.
-So I set up site opening and closing a pair of `{}`, and in here we can list out everything from site we want access to for us it was `siteMetaData`.
+So I set up site opening and closing a pair of `{}`, and in here we can list out everything from site we want access to for us it was `sitemetedata`.
 Now this alone is not going to work.
-We can't just grab everything from `siteMetaData`.
+We can't just grab everything from `sitemetedata`.
 We have to be explicit, grabbing just the fields were actually going to use.
 So we set up another pair of `{}` and I list out what I want access to in this case title and we can see we're even getting a little auto completion.
 I can always use that to populate the final value.
 And there we go our very first `GraphQL` operation.
-We are performing a query called Site on site were grabbing site meta data on `siteMetaData` were grabbing `title` , and if I click that play button to run it, what do I get over here? I get my data back.
+We are performing a query called Site on site were grabbing site meta data on `sitemetedata` were grabbing `title` , and if I click that play button to run it, what do I get over here? I get my data back.
 I can see full stack bootcamp showing up now.
 One thing you'll notice about the response is that the structure of the response is dictated by the structure of the query.
-Here we have site, `siteMetadata` and `title`.
-Here we have site, site, metadata and title.
+Here we have site, `sitemetedata` and `title`.
+Here we have site, site, metedata and title.
 So we get back exactly what we put in.
 Though the fields we requested are obviously populated with the correct values.
 So Now that we've seen a basic query, let's go ahead and run in this exact same query from a `React component` so we can fetch dynamic data into our site.
@@ -116,18 +116,18 @@ Essentially, it allows this stringfy to be processed by that function, and in th
 So for us, what we type in this string is exactly character for character.
 What we were typing over in `GraphQL`.
 So it's a query in there were using the `siteQuery`.
-I'm asking for these `siteMetaData`, and on that I want the `title`.
+I'm asking for these `sitemetedata`, and on that I want the `title`.
 Now we're done.
 We have access to that data and we can go ahead and use it in the link down below, or wherever else we might want to use that data.
 So for us, I'm going to remove `Andrew Meat` in the `<h1>` in my header, and we're going to set up some `{}` so we can inject the value.
-The value is on `data.site.siteMetaData` and it is `title` now.
+The value is on `data.site.sitemetedata` and it is `title` now.
 If we save the program, we can actually pull our site up.
 And what do we see? I see `full stack bootcamp` showing up in the header, which is fantastic.
 We were able to create a `React component` that fetched data from Gatsby's `GraphQL` API to come up with something that's dynamic.
 Now what's cool is that as that data changes, the site will also change.
 So over here I'm going to alter that `title`, adding an exclamation mark on to the end.
 I'll save things head over to the browser and I can see that change is already in place.
-So this is one way we can access some dynamic data in our Gatsby sites using `siteMetaData`.
+So this is one way we can access some dynamic data in our Gatsby sites using `sitemetedata`.
 This is great for key value pairs like title, author, your email address, social media, your Els and that sort of thing.
 So once again, inside of header What did wedo? We worked with used `staticQuery` to perform a query.
 We got access to the data and we injected that somewhere in the `JSX`.
@@ -137,7 +137,7 @@ So step one.
 Use `GraphQL` in the browser to fetch the `author`, making sure you get the correct value back.
 Once you know how to fetch the `author`, update the footer component to display the dynamic author value instead of these static one.
 So right now, `Andrew Mead`, that's hard coated in the footer component.
-I want this value to come from the `siteMetaData` instead.
+I want this value to come from the `sitemetedata` instead.
 Once you have that in place, you're gonna test your work.
 So actually make sure that you can see the name show up.
 And when you change the name in the `gatsby.config` file, you should see it change in the browser as well.
@@ -146,7 +146,7 @@ Pause the video.
 Test your work.
 And when you're done, come back and click `play` how that go? Let's get to it with step number one.
 So over here in the browser, we're gonna use `GraphQL` to fetch the `author`.
-So once again, that lives on `siteMetaData` alongside of `title`.
+So once again, that lives on `sitemetedata` alongside of `title`.
 So right here, instead of accessing `title`, I'll access `author`.
 I'll run the `query`, and I can see that value showing up.
 So this is what I need to run from the footer component.
@@ -155,11 +155,11 @@ I'm going to crack open the footer component, and we're gonna import those two t
 That was a graphic.
 You well, and `useStaticQuery` grabbing both of them from the Gatsby `npm` library exactly like we were doing over here.
 From there, we can actually use these in the footer `const data = ` I'm going to call `useStaticQuery`.
-I'm gonna use `GraphQL` with a template string, and we're going to provide our `query` the `query` is using `site` from there were grabbing `siteMetaData` and on `siteMetaData`.
+I'm gonna use `GraphQL` with a template string, and we're going to provide our `query` the `query` is using `site` from there were grabbing `sitemetedata` and on `sitemetedata`.
 All I want access to is the `author`.
 Now we should have access to the `author`, and I can use it down below.
 So I'm going to remove these static `author` and swap it out with a dynamic value.
-That would be `data.site.siteMetaData.author`, and we're done.
+That would be `data.site.sitemetedata.author`, and we're done.
 Now that we have this in place, let's test our work.
 I'm going to save the footer component in the header component.
 I'm going to remove those challenge comments and save that file to and hopefully I see `Andrew Mead` in the Footer right over here.

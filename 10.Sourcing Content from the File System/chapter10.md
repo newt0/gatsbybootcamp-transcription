@@ -5,7 +5,7 @@ So far, we have done that with site meta data.
 We were able to pull in some basic information getting that rendered in our `React component`s.
 But it's not exactly a great place for more complex data.
 For example, the blog posts were trying to create for our site storing that inside of that little site.
-`MetaData` object just is not realistic.
+`metedata` object just is not realistic.
 Instead, we're going to start to focus on creating a blog posts word by markdown blog posts.
 So inside of `Visiual Studio Code`, we'll be adding markdown files for each of the blog posts we want to create.
 Those will then be listed over on the blog posts page of our site and will also have Gatsby dynamically generate brand New pages based off of a page template for each and every blog posts.
@@ -53,7 +53,7 @@ What we need to do is figure out how to get this inside of Gatsby, because once 
 And we need to get that rendered to the screen.
 Step one, though, is to tell Gatsby that we're now sourcing content from an external source.
 It's coming.
-Not from `siteMetaData`.
+Not from `sitemetedata`.
 Not from a CMS, not from third party API.
 It is coming from the `filesystem`.
 Everything we need is right here in the Posts folder.
